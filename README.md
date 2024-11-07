@@ -28,7 +28,11 @@
     ```powershell
      minikube start --driver=hyperv 
     ```
+### 2. Add Jenkins server
+
+    
 ## Uninstall
+### Uninstall minikube cluster
 1. Remove minikube hyper-v virtual machine:
   ```powershell
    minikube delete 
