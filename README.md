@@ -20,13 +20,18 @@
     if ($oldPath.Split(';') -inotcontains 'C:\minikube'){
     [Environment]::SetEnvironmentVariable('Path', $('{0};C:\minikube' -f $oldPath), [EnvironmentVariableTarget]::Machine)
     }
-   ``` 
+   ```
+5. Configuration at $home\.kube (optional)
+       
 ### 2. Start minikube cluster
-1. Starts hyper-v virtual mashine with minikube kubernetes cluster:
+1. Starts hyper-v virtual machine with minikube kubernetes cluster:
     ```powershell
     minikube start --driver=hyperv 
     ```
-    If need it will remove hyper-v virtual machine:
+ 
+## Uninstall
+   1.Remove minikube hyper-v virtual machine:
     ```powershell
     minikube delete 
     ```
+   2.Delete directory "c:\minikube"
