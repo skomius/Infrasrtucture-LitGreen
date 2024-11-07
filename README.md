@@ -30,8 +30,8 @@
     ```
  
 ## Uninstall
-1.Remove minikube hyper-v virtual machine:
+1. Remove minikube hyper-v virtual machine:
   ```powershell
    minikube delete 
   ```
-2.Delete directory "c:\minikube"
+2. Delete directory "c:\minikube"
