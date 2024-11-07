@@ -28,7 +28,6 @@
     ```powershell
      minikube start --driver=hyperv 
     ```
- 
 ## Uninstall
 1. Remove minikube hyper-v virtual machine:
   ```powershell
