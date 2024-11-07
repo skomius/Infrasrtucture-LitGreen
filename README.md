@@ -26,12 +26,12 @@
 ### 2. Start minikube cluster
 1. Starts hyper-v virtual machine with minikube kubernetes cluster:
     ```powershell
-    minikube start --driver=hyperv 
+     minikube start --driver=hyperv 
     ```
  
 ## Uninstall
-   1.Remove minikube hyper-v virtual machine:
-    ```powershell
-    minikube delete 
-    ```
-   2.Delete directory "c:\minikube"
+1.Remove minikube hyper-v virtual machine:
+  ```powershell
+   minikube delete 
+  ```
+2.Delete directory "c:\minikube"
