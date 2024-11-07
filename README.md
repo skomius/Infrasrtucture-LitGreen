@@ -21,3 +21,12 @@
     [Environment]::SetEnvironmentVariable('Path', $('{0};C:\minikube' -f $oldPath), [EnvironmentVariableTarget]::Machine)
     }
    ``` 
+### 2. Start minikube cluster
+1. Starts hyper-v virtual mashine with minikube kubernetes cluster:
+    ```powershell
+    minikube start --driver=hyperv 
+    ```
+    If need it will remove hyper-v virtual machine:
+    ```powershell
+    minikube delete 
+    ```
