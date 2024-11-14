@@ -21,7 +21,7 @@
     [Environment]::SetEnvironmentVariable('Path', $('{0};C:\minikube' -f $oldPath), [EnvironmentVariableTarget]::Machine)
     }
    ```
-5. Configuration at $home\.kube (optional)
+5. Configuration at $home\\.kube (optional)
        
 ### 2. Start minikube cluster
 1. Starts hyper-v virtual machine with minikube kubernetes cluster:
